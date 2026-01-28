@@ -3,7 +3,6 @@
 1.1 String is a growable collection. It is mutable and UTF-8 encoded type
 1.2 String object is allocated in the heap.
  */
-
 fn main(){
     let empty_string = String::new();
     println!("length is {}",empty_string.len());
